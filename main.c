@@ -3,16 +3,16 @@
 #include <stdio.h>
 #include <math.h>
 
-// TODO: START USER INPUT
+// START USER INPUT
 // Sets desired temperature in degrees Fahrenheit.
-float desiredTemp = 107.02;
+float desiredTemp = ;
 // Proportional gain.
-float kp = 23;
+float kp = ;
 // Integral gain.
-float ki = 0.7;
+float ki = ;
 // Derivative gain.
-float kd = 0.0;
-// TODO: END USER INPUT
+float kd = ;
+// END USER INPUT
 
 // Sets the flag to control the rate at which the ADC measurements are taken.
 volatile uint8_t flag = 0;
